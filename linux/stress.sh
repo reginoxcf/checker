@@ -5,7 +5,7 @@ while :
 do
     i=$(($i + 1))
     echo $i 
-    ./checker $i 5  > test.inp
+    ./checker $i  > test.inp
     ./a < test.inp > test.out
     ./b < test.inp > test.ans
 
